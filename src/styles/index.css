@@ -1,0 +1,78 @@
+body {
+  font-size: 16px;
+}
+
+.body-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.form-control{
+  border: 1px solid #922c88;
+}
+label{
+  color: #5c5b5b;
+  letter-spacing: 0.5px;
+}
+.form_container {
+  padding: 20px 40px;
+  border: 1px solid #922c88;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.highlighted_btn {
+  background-color: #922c88;
+    border-color: #922c88;
+    color: #fff;
+    border-radius: 50px;
+    padding: 6px 20px;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    font-weight: 300;
+    outline: 0px;
+    border-bottom: 0px;
+    border-right: 0px;
+}
+.nonhighlighted_btn {
+  background-color: transparent;
+  border-color: #922c88;
+  color: #922c88;
+  border-radius: 50px;
+  padding: 6px 20px;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  font-weight: 300;
+  outline: 0px;
+  border-bottom: 1px solid #922c88;
+  border-right: 1px solid #922c88;
+}
+.right-btn{
+  float: right;
+}
+.purple-text{
+  color: #922c88;
+  font-weight: 400;
+}
+.purple-bg{
+ background-color: #644b61; 
+}
+.white-text{
+  color: #fff;
+}
+.big-text{
+  font-size: 22px;
+  font-weight: 300;
+}
+.card{
+  border-radius: 10px;
+  overflow: hidden;
+}
+.card-text{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-top: -20px;
+  overflow: hidden;
+}
