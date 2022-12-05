@@ -102,7 +102,7 @@ function Form() {
     }
 
     if (formValuesSecond.address && formValuesSecond.address.length < 10) {
-      errors.firstName = 'Atleast 10 letters required';
+      errors.address = 'Atleast 10 letters required';
     }
 
     return errors;
@@ -253,12 +253,12 @@ function Form() {
           <div className="col-lg-6 mx-auto">
             <div className="form_container">
               <h2 className="text-center mb-4 purple-text">Second Form</h2>
-              <div className="w-100">
+              <div className="w-100 mb-4">
                 <label className="mb-2" htmlFor="firstName">
                   First Name
                 </label>
                 <input
-                  className="form-control mb-4"
+                  className="form-control"
                   required
                   id="firstName"
                   value={formValuesSecond.firstName}
@@ -270,12 +270,10 @@ function Form() {
                   <small className="text-danger">{formErrorsSecond.firstName}</small>
                 )}
               </div>
-              <div className="w-100 mb-2">
-                <label className="mb-2" htmlFor="lastName">
-                  Last Name
-                </label>
+              <div className="w-100 mb-4">
+                <label htmlFor="lastName">Last Name</label>
                 <input
-                  className="form-control mb-4"
+                  className="form-control"
                   id="lastName"
                   value={formValuesSecond.lastName}
                   onChange={e =>
