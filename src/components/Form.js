@@ -102,7 +102,7 @@ function Form() {
     }
 
     if (formValuesSecond.address && formValuesSecond.address.length < 10) {
-      errors.firstName = 'Atleast 10 letters required';
+      errors.address = 'Atleast 10 letters required';
     }
 
     return errors;
